@@ -1,4 +1,4 @@
-# 🩺 VruCare: Kidney Stone Information Chatbot
+# 🩺 VruCare:RAG Based GenAI System for Kidney Stone 
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://kidneystone-rag-chatbot.streamlit.app/)
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-3110/)
