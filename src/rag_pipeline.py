@@ -16,7 +16,7 @@ from langchain.chains.combine_documents import create_stuff_documents_chain
 vectorstore_path="vectorstore"
 chunks_path="vectorstore/raw_chunks.pkl"
 embedding_model="sentence-transformers/all-MiniLM-L6-v2"
-llm_model="meta-llama/llama-3.3-70b-instruct:free"
+llm_model="google/gemma-4-31b-it:free"
 load_dotenv()
 api_key = os.getenv("OPENROUTER_API_KEY")
 print(f"DEBUG: Loaded API Key: {api_key[:10]}..." if api_key else "DEBUG: API Key is None!")

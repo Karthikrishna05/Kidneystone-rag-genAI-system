@@ -3,7 +3,7 @@ import os
 import pickle
 from vectorizer import create_chunks_and_vectorize
 import streamlit as st
-from rag_pipeline import rag_loader_and_pipeliner # This imports our new chain
+from rag_pipeline import rag_loader_and_pipeliner 
 from langchain.schema import HumanMessage, AIMessage
 
 st.set_page_config(
